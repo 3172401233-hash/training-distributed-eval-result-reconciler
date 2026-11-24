@@ -1,0 +1,14 @@
+{
+  "name": "training-distributed-eval-result-reconciler",
+  "version": "1.0.0",
+  "description": "对账分布式评估分片、重试和重复上传结果，计算加权最终指标或拒绝合并",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "reconcile": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  }
+}
